@@ -153,7 +153,7 @@ def main():
     
     if page_selection == "About Elite":
         #st.markdown("<h1 style='text-align: center; color: white;'>The Elites</h1>", unsafe_allow_html=True)
-        st.image('resources/imgs/logo.jpg', width=700)
+        st.image('resources/imgs/logo.JPG', width=700)
         st.image('resources/imgs/emma.jpeg',use_column_width=True)
         st.markdown("<p style='text-align: center; color: white;'>Fielami Emmanuel David</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: white;'>Chief Executive Officer</p>", unsafe_allow_html=True)
@@ -168,7 +168,7 @@ def main():
         st.markdown("<p style='text-align: center; color: white;'>We recommend that taking the recommendation engine to production and integrate with the movie streaming service to help boost viewers satisfaction and revenue for our client.</p>", unsafe_allow_html=True)
     if page_selection == "Movie Insights on EDA":
         st.title("Movies Insights")
-        st.image('resources/imgs/logo.jpg', width=250)
+        st.image('resources/imgs/logo.JPG', width=250)
         st.info("we allow you to visualize movies and user analytics, so that you can understand the user's behaviors")
         plotviz = ["select for EDA", "-- movie rating distribution",
                 "-- Genre popularity trend",
