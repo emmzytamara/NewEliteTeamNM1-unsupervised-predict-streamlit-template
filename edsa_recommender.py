@@ -158,12 +158,12 @@ def main():
         st.markdown("<p style='text-align: center; color: white;'>Fielami Emmanuel David</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: white;'>Chief Executive Officer</p>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; color: white;'>emmzytamara2@gmail.com</p>", unsafe_allow_html=True)
-        st.image('resources/imgs/team.jpg',use_column_width=True)
-        st.image('resources/imgs/team2.jpg',use_column_width=True)
+        st.image('resources/imgs/team.JPG',use_column_width=True)
+        st.image('resources/imgs/team2.JPG',use_column_width=True)
         
         st.markdown("<h2 style='text-align: center; color: white;'>Contact Info</h2>", unsafe_allow_html=True)
         col = st.columns(1)
-        st.image('resources/imgs/team3.jpg',use_column_width=True)
+        st.image('resources/imgs/team3.JPG',use_column_width=True)
         
         st.markdown("<p style='text-align: center; color: white;'>We recommend that taking the recommendation engine to production and integrate with the movie streaming service to help boost viewers satisfaction and revenue for our client.</p>", unsafe_allow_html=True)
     if page_selection == "Movie Insights on EDA":
